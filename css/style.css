@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body,
+a {
+  font-family: Montserrat, sans-serif;
+  color: #22243a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.coc {
+  display: inline-block;
+  height: 40px;
+  margin: 18px 0px 0px 0px;
+}
+.coc a {
+  display: inline-block;
+  background-size: contain;
+}
+.fbf {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/social-fb.svg);
+}
+.fbt {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/social-tg.svg);
+}
+.fbyt {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/social-yt.svg);
+}
+.fbin {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/social-ig.svg);
+}
+.fbv {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/social-vb.svg);
+}
+header {
+  display: flex;
+
+  background-color: rgb(48, 63, 159);
+  height: 100px;
+}
+.nav {
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  height: 30px;
+  min-width: 100%;
+  border-bottom: 7px solid rgb(48, 63, 159);
+  padding: 0px 0px 5px 0px;
+}
+.nav li {
+  display: inline-block;
+  margin: 0px 90px 0px 0px;
+  font-size: large;
+}
+.coc li {
+  display: inline-block;
+  padding: 6px 0px 0px 0px;
+  border: 1px solid rgb(99, 98, 98);
+}
+.logo {
+  display: inline-block;
+
+  margin: 11px 0px 0px 480px;
+
+  height: 60px;
+}
+a {
+  color: black;
+}
